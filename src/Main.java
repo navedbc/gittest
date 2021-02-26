@@ -9,10 +9,11 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println("this is the first proj");
-        System.out.println("display changes");
-        System.out.println("this is the third changes in this branch");
-        System.out.println("this is the third changes in this branch other");
+        Main main=new Main();
+        main.display("this is the first proj");
+        main.display("display changes");
+        main.display("this is the third changes in this branch");
+        main.display("this is the third changes in this branch other");
         
     }
 }
